@@ -9,13 +9,6 @@
     <name>entsoe-connector</name>
     <description>ENTSOE Connector</description>
 
-    <parent>
-        <groupId>com.trendminer.maven</groupId>
-        <artifactId>tm-maven-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-        <relativePath/>
-    </parent>
-
     <modules>
         <module>tm-entsoe-connector-service</module>
         <module>tm-entsoe-connector-docker</module>

@@ -45,7 +45,7 @@ public class DatabaseController {
         return databases.get(id);
     }
 
-    @PostMapping(value = "/database", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @PostMapping(value = "/database", consumes = MediaType.APPLICATION_JSON_VALUE)
     public int createHistorian(@RequestBody HistorianDTO historianDTO) {
         return 3;
     }
